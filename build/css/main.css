@@ -348,3 +348,91 @@ table {
   .fourth-section__item {
     margin-top: 0;
     width: 32%; } }
+
+.fifth-section__wrapper {
+  padding: 0 10px;
+  text-align: center;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #4c4c4c url("../img/fifth-section__background.png") center no-repeat;
+  background-size: cover; }
+
+.fifth-section__headline {
+  color: #fff;
+  font-family: "Gotham Rounded", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .fifth-section__headline__position {
+    margin-bottom: 34px; }
+
+.fifth-section__input-text {
+  width: 100%;
+  max-width: 280px;
+  padding: 22px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px 0 0 5px; }
+
+.fifth-section__input-text::-webkit-input-placeholder {
+  color: #373737;
+  font-family: "Gotham Rounded Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.fifth-section__input-text:-ms-input-placeholder {
+  color: #373737;
+  font-family: "Gotham Rounded Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.fifth-section__input-text::-ms-input-placeholder {
+  color: #373737;
+  font-family: "Gotham Rounded Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.fifth-section__input-text::placeholder {
+  color: #373737;
+  font-family: "Gotham Rounded Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.fifth-section__form-button {
+  color: #fff;
+  font-family: "Gotham Rounded Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #16a085;
+  border: none;
+  padding: 19px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer; }
+  .fifth-section__form-button:hover {
+    background-color: #117561; }
+
+.fifth-section__form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }

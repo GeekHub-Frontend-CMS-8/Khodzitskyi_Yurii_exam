@@ -56,6 +56,23 @@ table {
     -webkit-transition: 0.3s;
     transition: 0.3s; }
 
+.section__headline {
+  color: #16a085;
+  font-family: "Gotham Rounded Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.section__paragraph {
+  color: #373737;
+  font-family: "Gotham Rounded Book", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px; }
+  .section__paragraph__highlited {
+    font-family: "Gotham Rounded Medium", sans-serif;
+    font-weight: 700; }
+
 @font-face {
   font-family: "Gotham Rounded";
   src: url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.eot");
@@ -169,3 +186,37 @@ table {
         color: #000;
         -webkit-transition: 0.3s;
         transition: 0.3s; }
+
+.second-section__wrapper {
+  padding: 100px 10px 0;
+  background-color: #f5f6f7; }
+
+.second-section__container {
+  padding: 0 0 100px;
+  margin: 0 auto;
+  max-width: 1040px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column; }
+
+.second-section__secondary-container {
+  max-width: 450px;
+  text-align: center; }
+
+.second-section__button {
+  width: 100%;
+  max-width: 190px;
+  height: 50px; }
+
+.second-section__paragraph {
+  margin: 45px 0; }
+
+@media only screen and (min-width: 768px) {
+  .second-section__container {
+    background: url("../img/second-section__background.png") right top no-repeat; }
+  .second-section__secondary-container {
+    text-align: left; } }

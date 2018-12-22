@@ -15,3 +15,21 @@
     transition: 0.3s;
   }
 }
+.section__headline {
+  color: #16a085;
+  font-family: "Gotham Rounded Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.section__paragraph {
+  color: #373737;
+  font-family: "Gotham Rounded Book", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  &__highlited {
+    font-family: "Gotham Rounded Medium", sans-serif;
+    font-weight: 700;
+  }
+}

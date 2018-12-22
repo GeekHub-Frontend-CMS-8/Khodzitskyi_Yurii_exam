@@ -1,0 +1,66 @@
+.six-section {
+  &__wrapper {
+    padding: 95px 10px;
+    background-color: #f5f6f7;
+  }
+  &__container {
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+  }
+  &__headline {
+    color: #373737;
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__paragraph {
+    color: #373737;
+    font-family: "Gotham Rounded Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+    &__position {
+      margin: 16px 0 45px;
+    }
+  }
+  &__form__left-side-button {
+    padding: 22px;
+    width: 100%;
+    max-width: 240px;
+    color: #fff;
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    &:hover {
+      background-color: #159278;
+    }
+  }
+  &__form__right-side-button {
+    padding: 0 22px;
+    height: 63px;
+    background-color: #16a085;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    border-radius: 0 3px 3px 0;
+  }
+  &__form {
+    display: flex;
+    align-items: center;
+    &__button-wrapper {
+      width: 50%;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

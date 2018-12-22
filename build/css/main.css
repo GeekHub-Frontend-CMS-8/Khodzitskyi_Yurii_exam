@@ -73,6 +73,12 @@ table {
     font-family: "Gotham Rounded Medium", sans-serif;
     font-weight: 700; }
 
+.slide-button {
+  text-decoration: none;
+  font-size: 30px; }
+  .slide-button__right__position {
+    margin-left: 15px; }
+
 @font-face {
   font-family: "Gotham Rounded";
   src: url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.eot");
@@ -188,7 +194,7 @@ table {
         transition: 0.3s; }
 
 .second-section__wrapper {
-  padding: 100px 10px 0;
+  padding: 40px 10px 0;
   background-color: #f5f6f7; }
 
 .second-section__container {
@@ -198,10 +204,9 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: column;
-  flex-flow: column; }
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 .second-section__secondary-container {
   max-width: 450px;
@@ -216,7 +221,57 @@ table {
   margin: 45px 0; }
 
 @media only screen and (min-width: 768px) {
+  .second-section__wrapper {
+    padding: 100px 10px 0; }
   .second-section__container {
     background: url("../img/second-section__background.png") right top no-repeat; }
   .second-section__secondary-container {
-    text-align: left; } }
+    text-align: left; }
+  .second-section__container {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; } }
+
+.third-section__wrapper {
+  padding: 40px 10px 0; }
+
+.third-section__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 1070px;
+  margin: 0 auto; }
+
+.third-section__secondary-container {
+  max-width: 450px;
+  text-align: center;
+  padding-bottom: 40px; }
+
+.third-section__button {
+  width: 100%;
+  max-width: 192px;
+  height: 50px; }
+
+.third-section__slide-number {
+  color: #373737;
+  font-family: "Gotham Rounded Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .third-section__slide-number__position {
+    margin-top: 45px; }
+
+@media only screen and (min-width: 768px) {
+  .third-section__wrapper {
+    padding: 140px 10px 0; }
+  .third-section__container {
+    background: url("../img/third-section__background.png") left top no-repeat;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+  .third-section__secondary-container {
+    text-align: left;
+    padding-bottom: 80px; } }

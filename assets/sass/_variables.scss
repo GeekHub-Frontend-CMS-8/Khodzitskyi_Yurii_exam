@@ -33,3 +33,10 @@
     font-weight: 700;
   }
 }
+.slide-button {
+  text-decoration: none;
+  font-size: 30px;
+  &__right__position {
+    margin-left: 15px;
+  }
+}

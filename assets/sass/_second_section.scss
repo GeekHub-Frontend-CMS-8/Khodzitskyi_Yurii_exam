@@ -1,6 +1,6 @@
 .second-section {
   &__wrapper {
-    padding: 100px 10px 0;
+    padding: 40px 10px 0;
     background-color: #f5f6f7;
   }
   &__container {
@@ -8,7 +8,7 @@
     margin: 0 auto;
     max-width: 1040px;
     display: flex;
-    flex-flow: column;
+    justify-content: center;
   }
   &__secondary-container {
     max-width: 450px;
@@ -25,10 +25,16 @@
   margin: 45px 0;
 }
 @media only screen and (min-width: 768px) {
+  .second-section__wrapper {
+    padding: 100px 10px 0;
+  }
   .second-section__container {
     background: url("../img/second-section__background.png") right top no-repeat;
   }
   .second-section__secondary-container {
     text-align: left;
+  }
+  .second-section__container {
+    justify-content: flex-start;
   }
 }

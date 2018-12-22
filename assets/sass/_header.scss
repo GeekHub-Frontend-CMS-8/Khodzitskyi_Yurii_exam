@@ -1,0 +1,82 @@
+@font-face {font-family: "Gotham Rounded";
+  src: url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.eot");
+  src: url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.svg#Gotham Rounded") format("svg");
+}
+@font-face {font-family: "Gotham Rounded Book";
+  src: url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.eot");
+  src: url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.svg#Gotham Rounded") format("svg");
+}
+@font-face {font-family: "Gotham Rounded Medium";
+  src: url("//db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.eot");
+  src: url("//db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.svg#Gotham Rounded") format("svg");
+}
+.hero {
+  &__main-wrapper {
+    max-width: 520px;
+    text-align: center;
+    &__position {
+      margin: 0 auto;
+      padding: 100px 10px;
+    }
+  }
+  &__main__headline {
+    color: #fff;
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  &__main__paragraph {
+    color: #fff;
+    font-family: "Gotham Rounded Medium" ,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  &__button {
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+    max-width: 166px;
+  }
+  &__social__wrapper {
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  &__social__item-wrapper {
+    padding: 6px;
+  }
+  &__social__item {
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    transition: 0.3s;
+    border-radius: 3px;
+    &:hover {
+      color: #000;
+      background-color: #fff;
+      transition: 0.3s;
+    }
+  }
+}
+@media only screen and (min-width: 576px) {
+  .hero__main-wrapper__position {
+    padding: 220px 10px;
+  }
+}
+

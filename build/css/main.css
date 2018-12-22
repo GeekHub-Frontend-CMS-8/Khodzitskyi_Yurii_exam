@@ -1,0 +1,171 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1.2; }
+
+ol {
+  padding-left: 1.4em;
+  list-style: decimal; }
+
+ul {
+  padding-left: 1.4em;
+  list-style: square; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.button {
+  border-radius: 3px;
+  background-color: #16a085;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-family: "Gotham Rounded", sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .button:hover {
+    background-color: #0f6251;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+@font-face {
+  font-family: "Gotham Rounded";
+  src: url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.eot");
+  src: url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.woff") format("woff"), url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ae8f19f441b335c3fda30febf5069c5a.svg#Gotham Rounded") format("svg"); }
+
+@font-face {
+  font-family: "Gotham Rounded Book";
+  src: url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.eot");
+  src: url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.woff") format("woff"), url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.svg#Gotham Rounded") format("svg"); }
+
+@font-face {
+  font-family: "Gotham Rounded Medium";
+  src: url("//db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.eot");
+  src: url("//db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.woff") format("woff"), url("//db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.svg#Gotham Rounded") format("svg"); }
+
+.hero__main-wrapper {
+  max-width: 520px;
+  text-align: center; }
+  .hero__main-wrapper__position {
+    margin: 0 auto;
+    padding: 100px 10px; }
+
+.hero__main__headline {
+  color: #fff;
+  font-family: "Gotham Rounded", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  text-transform: uppercase; }
+
+.hero__main__paragraph {
+  color: #fff;
+  font-family: "Gotham Rounded Medium" ,sans-serif;
+  font-size: 16px;
+  font-weight: 500; }
+
+.hero__button {
+  margin-top: 25px;
+  width: 100%;
+  height: 50px;
+  max-width: 166px; }
+
+.hero__social__wrapper {
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none; }
+
+.hero__social__item-wrapper {
+  padding: 6px; }
+
+.hero__social__item {
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 23px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 3px; }
+  .hero__social__item:hover {
+    color: #000;
+    background-color: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+@media only screen and (min-width: 576px) {
+  .hero__main-wrapper__position {
+    padding: 220px 10px; } }
+
+.hero {
+  background: #cccccc url("../img/hero__background.png") center no-repeat;
+  background-size: cover; }
+  .hero__navigation {
+    max-width: 760px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap; }
+    .hero__navigation__position {
+      margin: 0 auto;
+      padding: 40px 10px; }
+    .hero__navigation__item {
+      padding: 15px 20px;
+      display: inline-block;
+      color: #fff;
+      font-size: 16px;
+      font-family: "Gotham Rounded",sans-serif;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 6px;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+      .hero__navigation__item:hover {
+        background-color: #fff;
+        color: #000;
+        -webkit-transition: 0.3s;
+        transition: 0.3s; }

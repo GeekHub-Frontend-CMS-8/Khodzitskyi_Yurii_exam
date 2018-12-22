@@ -1,0 +1,32 @@
+.hero {
+  background: #cccccc url("../img/hero__background.png") center no-repeat;
+  background-size: cover;
+  &__navigation {
+    max-width: 760px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    &__position {
+      margin: 0 auto;
+      padding: 40px 10px;
+    }
+    &__item {
+      padding: 15px 20px;
+      display: inline-block;
+      color: #fff;
+      font-size: 16px;
+      font-family: "Gotham Rounded",sans-serif;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: 0.3s;
+      &:hover {
+        background-color: #fff;
+        color: #000;
+        transition: 0.3s;
+      }
+    }
+  }
+}
